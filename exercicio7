@@ -1,0 +1,17 @@
+// 7. As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se
+// forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs
+// compradas, calcule e escreva o valor total da compra.
+
+const precoPorMca = 0.30
+const precoPorDuzia = 0.25
+
+const macasCompradas = 37
+
+if (macasCompradas < 12) {
+    const total = macasCompradas * precoPorMca
+    console.log(`O total da compra é: R$ ${total.toFixed(2)}`)
+}
+else {
+    const total = macasCompradas * precoPorDuzia
+    console.log(`O total da compra é: R$ ${total.toFixed(2)}`)
+}

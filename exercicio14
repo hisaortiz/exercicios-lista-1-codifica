@@ -1,0 +1,12 @@
+//14. Crie um programa que calcula o fatorial de um número fornecido pelo usuário
+//utilizando um loop for ou while.
+
+const numero = 13
+const fatorial = (n) => {
+    let resultado = 1
+    for (let i = n; i > 0; i--) {
+        resultado *= i
+    }
+    return resultado
+}
+console.log(`O fatorial de ${numero} é ${fatorial(numero)}`)

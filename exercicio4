@@ -1,0 +1,18 @@
+// 4. Crie um menu interativo no console que oferece ao usuário a escolha de três opções.
+// Utilize switch-case para implementar a lógica de cada opção selecionada.
+
+let opcao = prompt("escolha uma opção:\n1 - Morcego\n2 - Gremio\n3 - Sair");
+
+switch (opcao) {
+    case "1":
+        alert("Morceguinho");
+        break;
+    case "2":
+        alert("POR MAIS ESSA COPA");
+        break;
+    case "3":
+        alert("saindo");
+        break;
+    default:
+        alert("numero invalido!");
+}
